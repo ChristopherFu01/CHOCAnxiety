@@ -15,7 +15,9 @@
    - [Insights](#insights)
    - [Limitations](#limitations)
    - [Future Plans](#future-plans)
-7. [Project Folder Structure](#project-folder-structure)
+7. [Dependencies](#dependencies)
+8. [Project Folder Structure](#project-folder-structure)
+9. [References](#references)
 
 ## Abstract
 
@@ -56,8 +58,12 @@ Note that the dataset has been updated since October 4, 2024, whereas the projec
 
 ### Future Plans
 
+## Dependencies
+
 ## Project Folder Structure
 
 ```plaintext
 
 ```
+
+## References
