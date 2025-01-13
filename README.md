@@ -18,6 +18,7 @@
 7. [Dependencies](#dependencies)
 8. [Project Folder Structure](#project-folder-structure)
 9. [References](#references)
+10. [Contact Information](#contact-information)
 
 ## Abstract
 
@@ -75,3 +76,10 @@ Anxiety Disorders - Facts & Statistics (https://adaa.org/understanding-anxiety/f
 5. A Cross-Ethnic Comparison of Lifetime Prevalence Rates of Anxiety Disorders (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2931265)
 6. Does a higher educational level protect against anxiety and depression? The HUNT study (https://pubmed.ncbi.nlm.nih.gov/18234406/)
 7. Age differences in psychological distress during the COVID-19 pandemic: March 2020 – June 2021 (https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1101353/full)
+
+## Contact Information
+
+For any questions, please contact:
+
+- Name: Christopher Fu
+- Email: christopherfuwas@gmail.com
