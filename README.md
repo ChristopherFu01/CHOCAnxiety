@@ -67,3 +67,11 @@ Note that the dataset has been updated since October 4, 2024, whereas the projec
 ```
 
 ## References
+
+Anxiety Disorders - Facts & Statistics (https://adaa.org/understanding-anxiety/facts-statistics)
+2. Anxiety Facts: All You Need to Know (https://psychcentral.com/anxiety/anxiety-facts)
+3. Unequal depression for equal work? How the wage gap explains gendered disparities in mood disorders (https://www.sciencedirect.com/science/article/pii/S0277953615302616)
+4. US National and State-Level PRevalence of Mental Health Disorders and Disparities of Mental Health Care Use in Children (https://jamanetwork.com/journals/jamapediatrics/fullarticle/2724377)
+5. A Cross-Ethnic Comparison of Lifetime Prevalence Rates of Anxiety Disorders (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2931265)
+6. Does a higher educational level protect against anxiety and depression? The HUNT study (https://pubmed.ncbi.nlm.nih.gov/18234406/)
+7. Age differences in psychological distress during the COVID-19 pandemic: March 2020 – June 2021 (https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1101353/full)
