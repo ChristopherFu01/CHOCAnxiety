@@ -11,10 +11,11 @@
 5. [Modeling](#modeling)
    - [Model Development](#model-development)
    - [Model Evaluation](#model-evaluation)
-7. [Conclusion](#conclusion)
+6. [Conclusion](#conclusion)
    - [Insights](#insights)
    - [Limitations](#limitations)
    - [Future Plans](#future-plans)
+7. [Project Folder Structure](#project-folder-structure)
 
 ## Abstract
 
@@ -54,3 +55,9 @@ Note that the dataset has been updated since October 4, 2024, whereas the projec
 ### Limitations
 
 ### Future Plans
+
+## Project Folder Structure
+
+```plaintext
+
+```
