@@ -102,9 +102,9 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 ```plaintext
 CHOCAnxiety/
 |
-├── code/                                # Folder containing all code related files
+├── code/                                         # Folder containing all code related files
 |
-├── images/                              # Folder containing all relevant images of EDA and model results
+├── images/                                       # Folder containing all relevant images of EDA and model results
 |
 ├── August Monthly Meeting Mi4 Data Science.pdf   # PDF of presentation shown at the Mi4 CHOC August Monthly Meeting
 ├── LICENSE                                       # License information
