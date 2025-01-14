@@ -37,7 +37,7 @@ I would like to extend my gratitude towards the following members of the Data Sc
 
 ### Data Acknowledgment
 
-The data used in this project was provided by the National Center for Health Statistics and CDC at the following address: [https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data](url)
+The [data](https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data) used in this project was provided by the National Center for Health Statistics and CDC.
 
 Note that the dataset has been updated since October 4, 2024, whereas the project itself focuses on data the Summer of 2023 and before. The most notable changes in the updated dataset that are NOT present in this dataset include:
 
@@ -45,10 +45,24 @@ Note that the dataset has been updated since October 4, 2024, whereas the projec
 
 ## Background
 
+Anxiety disorders are among the most prevalent mental health conditions, affecting millions of individuals across various demographic groups; the Anxiety and Depression Association of America (ADAA) reports that 19.1% of US adults and 31.9% of adolescents annually are diagnosed with anxiety disorders<sup>[1]</sup>. Psych Central has also reported that approximately 50% of people have Generalized Anxiety Disorder symptoms for 2+ years before being diagnosed<sup>[2]</sup>. 
+
+Understanding the contributing factors and disparities in anxiety prevalence is crucial for developing targeted interventions and providing effective care. Although there are screening tools that exist for depression (PHQ-2) based on various risk factors<sup>[3]</sup>, it is unknown if there are tools of equal capabilities for screening anxiety disorders. The COVID-19 pandemic, which began in early 2020, significantly disrupted lives worldwide, amplifying stressors such as health concerns, economic instability, and social isolation. These factors have contributed to a marked increase in anxiety symptoms across diverse populations.
+
+The Centers for Disease Control and Prevention (CDC) has collected extensive data on mental health trends, offering a valuable resource for analyzing patterns of anxiety over time. This project leverages CDC data spanning April 4th, 2020 to June 30th, 2023 to explore demographic disparities in individuals exhibiting signs of anxiety. By examining variables such as age, gender, race/ethnicity, socioeconomic status (e.g. degree level), and geographic region, this analysis aims to uncover underlying trends and potential contributing factors.
+
+The findings will be tailored to support CHOC (Children's Health of Orange County) medical staff and physicians in their efforts to address anxiety within their patient populations. By identifying at-risk groups and understanding the demographic factors influencing anxiety, this project seeks to enable evidence-based decision-making, inform resource allocation, and promote equitable care practices. This work is part of a broader commitment to advancing mental health outcomes through data-driven approaches, and its insights can benefit future data analyses for CHOC-specific data.
+
+## Methodology
+
+Our approach consists of the following steps:
+1. Using the public dataset provided by the CDC, we can begin investigating potential factors of anxiety.
+2. After an exploratory search of these variables, we can deploy models for further insight findings. We will start with supervised machine learning such as the multivariate regression model, then deploy an unsupervised learning techniques such as clustering and covariance in order to find hidden patterns within these groups.
+3. Developing these findings will enable us to apply their value to further data analyses when CHOC provides their data, accelerating our search into anxiety within pediatric patients.
+
 ## Data Description
 
 ## Exploratory Data Analysis
-
 
 ## Modeling
 
