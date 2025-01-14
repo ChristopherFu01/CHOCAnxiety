@@ -8,6 +8,7 @@
    - [Data Acknowledgment](#data-acknowledgment)
 3. [Background](#background)
 4. [Data Description](#data-description)
+   - [Variables](#variables)
 5. [Exploratory Data Analysis](#exploratory-data-analysis)
 6. [Modeling](#modeling)
    - [Model Development](#model-development)
@@ -62,6 +63,36 @@ Our approach consists of the following steps:
 
 ## Data Description
 
+This dataset contains information collected by the Centers for Disease Control and Prevention (CDC) on anxiety-related indicators from April 4th, 2020 to June 30th, 2023. The data has been curated for the purpose of analyzing demographic disparities in anxiety prevalence and understanding potential contributing factors. It includes various demographic, socioeconomic, and temporal attributes to enable in-depth analysis.
+
+Note that due to multiple team members working on different jupyter notebooks, copies of the dataset were used. Although the name of the files differ, they all refer to the same dataset provided by the CDC. The following files were used:
+
+- `WHO.csv`
+- `anxiety_data.csv`
+- `csv-1.csv`
+
+### Variables
+
+Below is a summary of the key variables in the dataset:
+
+**Mental Health Indicators**
+- **Indicator**:Categorical (Symptoms of Anxiety Disorder, Symptoms of Depressive Disorder, Symptoms of Anxiety Disorder or Depressive Disorder)
+- **Value**: Numerical (e.g. 18.6)
+   - This is our **main response variable** for assessing anxiety likelihood
+- **Low CI**: Numerical (e.g. 14.6)
+- **High CI**: Numerical (e.g. 23.1)
+- **Confidence Interval**: Numerical (e.g. 14.6 - 23.1)
+- **Quartile Range**: Numerical (e.g. 16.5 - 20.7)
+
+**Demographic Variables**
+- **Group**: Categorical (National Estimate, By Age, By Gender, By Race/Hispanic ethnicity, By Education, By State)
+- **State**: Categorical (e.g. United States, Alabama, Alaska, etc.)
+- **Subgroup**: Categorical (e.g. United States, 18-29 years, Male, Hispanic or Latino, etc.)
+
+**Temporal Variables**
+- **Week**: Categorical (e.g. 1, 2, 3, etc.)
+- **Week Label**: Categorical (e.g. Apr 23 - May 5) 
+
 ## Exploratory Data Analysis
 
 ## Modeling
@@ -75,6 +106,10 @@ Our approach consists of the following steps:
 ### Insights
 
 ### Limitations
+
+One of the attributes that we failed to investigate into was the temporal aspects of the dataset. Looking into the weeks, especially data points originating from the COVID-19 pandemic period, would give us insight into whether certain years, seasons, months, or weeks experience increased anxiety.
+
+Another limitation of our study was not optimizing model performance or trying other supervised machine learning models, as those models could offer greater insight into feature importance.
 
 ### Future Plans
 
@@ -102,7 +137,10 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 ```plaintext
 CHOCAnxiety/
 |
-├── code/                                         # Folder containing all code related files
+├── code/                                         # Folder containing all code related files; note that all of the code files are identical, onyl differing in name due to usage in different jupyter  notebooks
+|   ├── WHO.csv                                   # dataset from CDC containing anxiety and depressed people 
+|   ├── anxiety_data.csv                          # see above
+|   ├── csv-1.csv                                 # see above
 |
 ├── images/                                       # Folder containing all relevant images of EDA and model results
 |
