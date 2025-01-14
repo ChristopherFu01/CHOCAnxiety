@@ -89,10 +89,26 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 
 ## Dependencies
 
+- pandas
+- matplotlib
+- scipy
+- plotly
+- statsmodels
+- seaborn
+- numpy
+
 ## Project Folder Structure
 
 ```plaintext
-
+CHOCAnxiety/
+|
+├── code/                                # Folder containing all code related files
+|
+├── images/                              # Folder containing all relevant images of EDA and model results
+|
+├── August Monthly Meeting Mi4 Data Science.pdf   # PDF of presentation shown at the Mi4 CHOC August Monthly Meeting
+├── LICENSE                                       # License information
+└── README.md                                     # Project documentation
 ```
 
 ## References
