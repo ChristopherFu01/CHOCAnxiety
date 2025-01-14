@@ -83,7 +83,7 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 
 ## References
 
-Anxiety Disorders - Facts & Statistics (https://adaa.org/understanding-anxiety/facts-statistics)
+1. Anxiety Disorders - Facts & Statistics (https://adaa.org/understanding-anxiety/facts-statistics)
 2. Anxiety Facts: All You Need to Know (https://psychcentral.com/anxiety/anxiety-facts)
 3. Unequal depression for equal work? How the wage gap explains gendered disparities in mood disorders (https://www.sciencedirect.com/science/article/pii/S0277953615302616)
 4. US National and State-Level PRevalence of Mental Health Disorders and Disparities of Mental Health Care Use in Children (https://jamanetwork.com/journals/jamapediatrics/fullarticle/2724377)
