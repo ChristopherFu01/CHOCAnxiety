@@ -137,7 +137,9 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 ```plaintext
 CHOCAnxiety/
 |
-├── code/                                         # Folder containing all code related files; note that all of the code files are identical, onyl differing in name due to usage in different jupyter  notebooks
+├── code/                                         # Folder containing all code related files
+|
+├── data/                                         # Folder containing all data files; note that all of the code files are identical, onyl differing in name due to usage in different jupyter notebooks
 |   ├── WHO.csv                                   # dataset from CDC containing anxiety and depressed people 
 |   ├── anxiety_data.csv                          # see above
 |   ├── csv-1.csv                                 # see above
