@@ -6,19 +6,20 @@
 2. [Acknowledgments](#acknowledgments)
    - [Team Acknowledgment](#team-acknowledgment)
    - [Data Acknowledgment](#data-acknowledgment)
-3. [Data Description](#data-description)
-4. [Exploratory Data Analysis](#exploratory-data-analysis)
-5. [Modeling](#modeling)
+3. [Background](#background)
+4. [Data Description](#data-description)
+5. [Exploratory Data Analysis](#exploratory-data-analysis)
+6. [Modeling](#modeling)
    - [Model Development](#model-development)
    - [Model Evaluation](#model-evaluation)
-6. [Conclusion](#conclusion)
+7. [Conclusion](#conclusion)
    - [Insights](#insights)
    - [Limitations](#limitations)
    - [Future Plans](#future-plans)
-7. [Dependencies](#dependencies)
-8. [Project Folder Structure](#project-folder-structure)
-9. [References](#references)
-10. [Contact Information](#contact-information)
+8. [Dependencies](#dependencies)
+9. [Project Folder Structure](#project-folder-structure)
+10. [References](#references)
+11. [Contact Information](#contact-information)
 
 ## Abstract
 
@@ -42,6 +43,8 @@ Note that the dataset has been updated since October 4, 2024, whereas the projec
 
 - Columns including Phase, Time Period (as opposed to Week), Time Period Label (as opposed to Week Label), Time Period Start Date, and Time Period End Date
 
+## Background
+
 ## Data Description
 
 ## Exploratory Data Analysis
@@ -60,6 +63,15 @@ Note that the dataset has been updated since October 4, 2024, whereas the projec
 ### Limitations
 
 ### Future Plans
+
+We hope to implement an unsupervised learning approach to develop a better understanding of how these variables interact with one another. Our goals would include:
+- Determining the covariance to characterize the patient population
+   - Example: Higher education patterns within racial groups can contribute to lower anxiety scores
+- Obtaining a higher quality data set to solidify and further our findings
+
+We also plan to do more time series analysis in order to determine if anxiety was heightened during the COVID-19 Pandemic as well as recent trends in anxiety. 
+
+Accomplishing these goals first would allow us to proceed with investigating data provided by CHOC directly by assisting in narrowing our focus and priorities, eventually leading to model deployment by CHOC in order to alleviate populations suffering under anxiety.
 
 ## Dependencies
 
