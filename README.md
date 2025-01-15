@@ -348,19 +348,23 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 CHOCAnxiety/
 |
 ├── EDA                                                  # Folder containing photos of EDA
+|   |
 |   ├── Age                                              # Folder containing photos of EDA for age
+|   |   |
 |   |   ├── box.png                                      # photo of boxplot for age groups
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by age
 |   |   ├── stats.png                                    # photo of statistics for age
 |   |   └── val.png                                      # photo of different values by age
 |   |
 |   ├── Education                                        # Folder containing photos of EDA for education
+|   |   |
 |   |   ├── box.png                                      # photo of boxplot for education groups
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by education
 |   |   ├── stats.png                                    # photo of statistics for education
 |   |   └── val.png                                      # photo of different values by education
 |   |
 |   ├── Gender                                           # Folder containing photos of EDA for gender
+|   |   |
 |   |   ├── box.png                                      # photo of boxplot for gender
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by gender
 |   |   ├── statsf.png                                   # photo of statistics for females
@@ -368,12 +372,14 @@ CHOCAnxiety/
 |   |   └── val.png                                      # photo of different values by gender
 |   |
 |   ├── Race                                             # Folder containing photos of EDA for race
+|   |   |
 |   |   ├── box.png                                      # photo of boxplot for race groups
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by race
 |   |   ├── stats.png                                    # photo of statistics for race
 |   |   └── val.png                                      # photo of different values by race
 |   |
 |   ├── States                                           # Folder containing photos of EDA for states
+|   |   |
 |   |   ├── heatmap1.png                                 # photo of heatmap for states with varying levels of anxiety
 |   |   ├── heatmap2.png                                 # photo of heatmap for significant states having anxiety
 |   |   ├── heatmap3.png                                 # photo of heatmap for significant states having depression
@@ -383,13 +389,16 @@ CHOCAnxiety/
 |   |   
 |   |
 |   ├── Week                                             # Folder containing photos of EDA for week
+|   |   |
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by week
 |   |   └── stats.png                                    # photo of statistics for weeks
 |   |
 |   └── Dataset.png                                      # photo of dataset in jupyter notebook using python pandas
 |
 ├── Model Building                                       # Folder containing photos regarding models
+|   |   
 |   ├── MLR                                              # Folder containing photos for multivariate linear regression model
+|   |   |
 |   |   ├── model_summary.png                            # model summary for multivariate regression model
 |   |   ├── sig_groups.png                               # table of groups which were considered significant
 |   |   ├── sig_states.png                               # table of states which were considered significant
@@ -397,6 +406,7 @@ CHOCAnxiety/
 |   |   └── sig_weeks.png                                # table of weeks which were considered significant
 |   |   
 |   └── SLR                                              # Folder containing photos for simple linear regression model
+|       |
 |       ├── Age                                          # Folder containing photo(s) for simple linear regression model for age
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on age
 |       |
@@ -414,6 +424,7 @@ CHOCAnxiety/
 |        
 |
 ├── code/                                                # Folder containing all code related files
+|   |   
 |   ├── (CHRIS) Anxiety Based on Age.ipynb               # Jupyter Notebook for EDA + model for Anxiety and Age
 |   ├── (CHRIS) Anxiety Based on Education.ipynb         # Jupyter Notebook for EDA + model for Anxiety and Education
 |   ├── (CHRIS) Anxiety Based on Race.ipynb              # Jupyter Notebook for EDA + model for Anxiety and Race
@@ -424,6 +435,7 @@ CHOCAnxiety/
 |   └── (CHRIS) MLR model based on Anxiety.ipynb         # Jupyter Notebook for multivariate linear regressio model
 |
 ├── data/                                                # Folder containing all data file(s)
+|   |   
 |   └── anxiety_data.csv                                 # dataset from CDC containing anxiety and depressed people 
 |
 |
