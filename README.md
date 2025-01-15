@@ -154,19 +154,19 @@ Note: In the Jupyter Notebook containing analysis on [Preliminary Analysis](code
 
 ![Fig 6](EDA/Education/box.png)
 
-**Figure 6: Boxplot of Score Value Distributions by Education.** 
+**Figure 6: Boxplot of Score Value Distributions by Education.** Those having a Bachelor's degree or higher experienced less anxiety compared to lesser degrees. The boxplot for the Bachelor's degree is highly skewed left, which could correspond to the few other people who have higher degrees such as a Master's degree or PhD. Groups who do not have a high school diploma experienced the greatest levels of anxiety among the educational levels.
 
 ![Fig 7](EDA/Education/meanval.png)
 
-**Figure 7: Barplot of Mean Score Value by Education.**
+**Figure 7: Barplot of Mean Score Value by Education.** The mean value for Bachelor's degree fell below that of the other educational levels. Less than a High School degreee was at maximum anxiety levels.
 
 ![Fig 8](EDA/Education/stats.png)
 
-**Figure 8: Statistics of Score Value by Education.**
+**Figure 8: Statistics of Score Value by Education.** Both Bachelor's degree or higher holders and less than High School Diploma had the greatest spread in their data.
 
 ![Fig 9](EDA/Education/val.png)
 
-**Figure 9: Distribution of Score Value by Education.**
+**Figure 9: Distribution of Score Value by Education.** Data points for Bachelor's degree were much lower compared to those of other educational levels.
 
 ### Gender
 
