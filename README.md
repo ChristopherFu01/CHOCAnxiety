@@ -164,81 +164,87 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 ```plaintext
 CHOCAnxiety/
 |
-├── EDA                                           # Folder containing photos of EDA
-|   ├── Age                                       # Folder containing photos of EDA for age
-|   |   ├── box.png                               # photo of boxplot for age groups
-|   |   ├── meanval.png                           # photo of barplot for mean value split by age
-|   |   ├── stats.png                             # photo of statistics for age
-|   |   └── val.png                               # photo of different values by age
+├── EDA                                                  # Folder containing photos of EDA
+|   ├── Age                                              # Folder containing photos of EDA for age
+|   |   ├── box.png                                      # photo of boxplot for age groups
+|   |   ├── meanval.png                                  # photo of barplot for mean value split by age
+|   |   ├── stats.png                                    # photo of statistics for age
+|   |   └── val.png                                      # photo of different values by age
 |   |
-|   ├── Education                                 # Folder containing photos of EDA for education
-|   |   ├── box.png                               # photo of boxplot for education groups
-|   |   ├── meanval.png                           # photo of barplot for mean value split by education
-|   |   ├── stats.png                             # photo of statistics for education
-|   |   └── val.png                               # photo of different values by education
+|   ├── Education                                        # Folder containing photos of EDA for education
+|   |   ├── box.png                                      # photo of boxplot for education groups
+|   |   ├── meanval.png                                  # photo of barplot for mean value split by education
+|   |   ├── stats.png                                    # photo of statistics for education
+|   |   └── val.png                                      # photo of different values by education
 |   |
-|   ├── Gender                                    # Folder containing photos of EDA for gender
-|   |   ├── box.png                               # photo of boxplot for gender
-|   |   ├── meanval.png                           # photo of barplot for mean value split by gender
-|   |   ├── stats.png                             # photo of statistics for gender
-|   |   └── val.png                               # photo of different values by gender
+|   ├── Gender                                           # Folder containing photos of EDA for gender
+|   |   ├── box.png                                      # photo of boxplot for gender
+|   |   ├── meanval.png                                  # photo of barplot for mean value split by gender
+|   |   ├── stats.png                                    # photo of statistics for gender
+|   |   └── val.png                                      # photo of different values by gender
 |   |
-|   ├── Race                                      # Folder containing photos of EDA for race
-|   |   ├── box.png                               # photo of boxplot for race groups
-|   |   ├── meanval.png                           # photo of barplot for mean value split by race
-|   |   ├── stats.png                             # photo of statistics for race
-|   |   └── val.png                               # photo of different values by race
+|   ├── Race                                             # Folder containing photos of EDA for race
+|   |   ├── box.png                                      # photo of boxplot for race groups
+|   |   ├── meanval.png                                  # photo of barplot for mean value split by race
+|   |   ├── stats.png                                    # photo of statistics for race
+|   |   └── val.png                                      # photo of different values by race
 |   |
-|   ├── States                                    # Folder containing photos of EDA for states
-|   |   ├── box.png                               # photo of boxplot for states
-|   |   ├── meanval.png                           # photo of barplot for mean value split by states
-|   |   ├── stats.png                             # photo of statistics for states
-|   |   └── val.png                               # photo of different values by states
+|   ├── States                                           # Folder containing photos of EDA for states
+|   |   ├── box.png                                      # photo of boxplot for states
+|   |   ├── meanval.png                                  # photo of barplot for mean value split by states
+|   |   ├── stats.png                                    # photo of statistics for states
+|   |   └── val.png                                      # photo of different values by states
 |   |
-|   ├── Week                                      # Folder containing photos of EDA for week
-|   |   ├── box.png                               # photo of boxplot for week
-|   |   ├── meanval.png                           # photo of barplot for mean value split by week
-|   |   ├── stats.png                             # photo of statistics for weeks
-|   |   └── val.png                               # photo of different values by week
+|   ├── Week                                             # Folder containing photos of EDA for week
+|   |   ├── box.png                                      # photo of boxplot for week
+|   |   ├── meanval.png                                  # photo of barplot for mean value split by week
+|   |   ├── stats.png                                    # photo of statistics for weeks
+|   |   └── val.png                                      # photo of different values by week
 |   |
-|   └── Dataset.png                               # photo of dataset in jupyter notebook using python pandas
+|   └── Dataset.png                                      # photo of dataset in jupyter notebook using python pandas
 |
-├── Model Building                                # Folder containing photos regarding models
-|   ├── MLR                                       # Folder containing photos for multivariate linear regression model
-|   |   ├── model_summary.png
-|   |   ├── sig_groups.png
-|   |   ├── sig_states.png
-|   |   ├── sig_subgroups.png
-|   |   ├── sig_weeks.png
+├── Model Building                                       # Folder containing photos regarding models
+|   ├── MLR                                              # Folder containing photos for multivariate linear regression model
+|   |   ├── model_summary.png                            # model summary for multivariate regression model
+|   |   ├── sig_groups.png                               # table of groups which were considered significant
+|   |   ├── sig_states.png                               # table of states which were considered significant
+|   |   ├── sig_subgroups.png                            # table of subgroups which were considered significant
+|   |   ├── sig_weeks.png                                # table of weeks which were considered significant
 |   |   
-|   ├── SLR                                       # Folder containing photos for single linear regression model
-|       ├── Age
-|       |   └── model_summary.png
+|   ├── SLR                                              # Folder containing photos for single linear regression model
+|       ├── Age                                          # Folder containing photo(s) for single linear regression model for age
+|       |   └── model_summary.png                        # model summary table for linear regresion model based on age
 |       |
-|       ├── Education
-|       |   └── model_summary.png
+|       ├── Education                                    # Folder containing photo(s) for single linear regression model for education
+|       |   └── model_summary.png                        # model summary table for linear regresion model based on education
 |       |
-|       ├── Gender
-|       |   └── model_summary.png
+|       ├── Gender                                       # Folder containing photo(s) for single linear regression model for gender
+|       |   └── model_summary.png                        # model summary table for linear regresion model based on gender
 |       |
-|       ├── Race
-|       |   └── model_summary.png
+|       ├── Race                                         # Folder containing photo(s) for single linear regression model for race
+|       |   └── model_summary.png                        # model summary table for linear regresion model based on race
 |       |
-|       └── States
-|           └── model_summary.png
+|       └── States                                       # Folder containing photo(s) for single linear regression model for states
+|           └── model_summary.png                        # model summary table for linear regresion model based on states
 |        
 |
-├── code/                                         # Folder containing all code related files
-|   ├──
-|   └── 
+├── code/                                                # Folder containing all code related files
+|   ├── (CHRIS) Anxiety Based on Age.ipynb               # Jupyter Notebook for EDA + model for Anxiety and Age
+|   ├── (CHRIS) Anxiety Based on Education.ipynb         # Jupyter Notebook for EDA + model for Anxiety and Education
+|   ├── (CHRIS) Anxiety Based on Race.ipynb              # Jupyter Notebook for EDA + model for Anxiety and Race
+|   ├── (CHRIS) Anxiety Based on States.ipynb            # Jupyter Notebook for EDA + model for Anxiety and States
+|   ├── (CHRIS) Anxiety Based on Weeks.ipynb             # Jupyter Notebook for EDA + model for Anxiety and Weeks
+|   ├── (CHRIS) Anxiety Prelim Analysis + Gender.ipynb   # Jupyter Notebook for early EDA and Gender EDA + model
+|   ├── (CHRIS) Depression Based on States.ipynb         # Jupyter Notebook containing EDA and model for depression geographically
+|   └── (CHRIS) MLR model based on Anxiety.ipynb         # Jupyter Notebook for multivariate linear regressio model
 |
-├── data/                                         # Folder containing all data file(s)
-|   └── anxiety_data.csv                          # dataset from CDC containing anxiety and depressed people 
+├── data/                                                # Folder containing all data file(s)
+|   └── anxiety_data.csv                                 # dataset from CDC containing anxiety and depressed people 
 |
 |
-├── August Monthly Meeting Mi4 Data Science.pdf   # PDF of presentation shown at the Mi4 CHOC August Monthly Meeting
-├── LICENSE                                       # License information
-└── README.md                                     # Project documentation
+├── August Monthly Meeting Mi4 Data Science.pdf          # PDF of presentation shown at the Mi4 CHOC August Monthly Meeting
+├── LICENSE                                              # License information
+└── README.md                                            # Project documentation
 ```
 
 ## References
