@@ -164,12 +164,21 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 ```plaintext
 CHOCAnxiety/
 |
+├── EDA                                           # Folder containing photos of EDA
+|   ├──
+|   └── 
+|
+├── Model Building                                # Folder containing photos regarding models
+|   ├──
+|   └── 
+|
 ├── code/                                         # Folder containing all code related files
+|   ├──
+|   └── 
 |
 ├── data/                                         # Folder containing all data file(s)
 |   ├── anxiety_data.csv                          # dataset from CDC containing anxiety and depressed people 
 |
-├── images/                                       # Folder containing all relevant images of EDA and model results
 |
 ├── August Monthly Meeting Mi4 Data Science.pdf   # PDF of presentation shown at the Mi4 CHOC August Monthly Meeting
 ├── LICENSE                                       # License information
