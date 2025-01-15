@@ -65,13 +65,9 @@ Our approach consists of the following steps:
 
 ## Data Description
 
-This dataset contains information collected by the Centers for Disease Control and Prevention (CDC) on anxiety-related indicators from April 4th, 2020 to June 30th, 2023. The data has been curated for the purpose of analyzing demographic disparities in anxiety prevalence and understanding potential contributing factors. It includes various demographic, socioeconomic, and temporal attributes to enable in-depth analysis.
+This dataset contains information collected by the Centers for Disease Control and Prevention (CDC) on anxiety-related indicators from April 4th, 2020 to June 30th, 2023. The data has been curated for the purpose of analyzing demographic disparities in anxiety prevalence and understanding potential contributing factors. It includes various demographic, socioeconomic, and temporal attributes to enable in-depth analysis. The following dataset was used:
 
-Note that due to multiple team members working on different jupyter notebooks, copies of the dataset were used. Although the name of the files differ, they all refer to the same dataset provided by the CDC. The following files were used:
-
-- `WHO.csv`
 - `anxiety_data.csv`
-- `csv-1.csv`
 
 ### Variables
 
@@ -170,10 +166,8 @@ CHOCAnxiety/
 |
 ├── code/                                         # Folder containing all code related files
 |
-├── data/                                         # Folder containing all data files; note that all of the code files are identical, onyl differing in name due to usage in different jupyter notebooks
-|   ├── WHO.csv                                   # dataset from CDC containing anxiety and depressed people 
-|   ├── anxiety_data.csv                          # see above
-|   ├── csv-1.csv                                 # see above
+├── data/                                         # Folder containing all data file(s)
+|   ├── anxiety_data.csv                          # dataset from CDC containing anxiety and depressed people 
 |
 ├── images/                                       # Folder containing all relevant images of EDA and model results
 |
