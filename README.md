@@ -126,23 +126,29 @@ Below is a summary of the key variables in the dataset:
 
 ## Exploratory Data Analysis
 
+An EDA investigation was done for the following predictor variables: **Age**, **Education**, **Gender**, **Race**, **States**, **Weeks**. By looking into how the data is distributed for these variables, we can gain greater insight into patterns and trends that correspond with increases in anxiety indicators.
+
+Our main response variable will be the **Value** variable, which is the score value indicative of anxiety disorder.
+
+Note: In the Jupyter Notebook containing analysis on [Preliminary Analysis](code/(CHRIS)%20Anxiety%20Prelim%20Analysis%20+%20Gender.ipynb), there is an explanation about hypothesis testing (both 1-sided and 2-sided t-tests). For comparing two groups in isolation, this form of statistical testing will enable us to determine significant differences between the mean value of these groups.
+
 ### Age
 
 ![Fig 2](EDA/Age/box.png)
 
-**Figure 2: Boxplot of Score Value Distributions by Age.** 
+**Figure 2: Boxplot of Score Value Distributions by Age.** The IQR (Interquartile Range) for each box per age group differs in length. Younger age groups, especially 18-29, seem to have higher levels of anxiety compared to the rest of the cohort, and their data is skewed. A noticeable gap between age groups 50-59 and 60-69 can be seen. Factors such as generational trauma or a competitive job market possibly cause this disparity between younger and older generations.
 
 ![Fig 3](EDA/Age/meanval.png)
 
-**Figure 3: Barplot of Mean Score Value by Age.**
+**Figure 3: Barplot of Mean Score Value by Age.** Ages 18-29 have the highest mean anxiety value of approximately 41, with all other age groups having less mean anxiety which each successive group.
 
 ![Fig 4](EDA/Age/stats.png)
 
-**Figure 4: Statistics of Score Value by Age.**
+**Figure 4: Statistics of Score Value by Age.** Ages 40-49 have the widest spread in their data; speculations could include a mid-life crisis or traumatic event.
 
 ![Fig 5](EDA/Age/val.png)
 
-**Figure 5: Distribution of Score Value by Age.**
+**Figure 5: Distribution of Score Value by Age.** Ages 80+ have the lowest anxiety value compared to the rest of the age groups.
 
 ### Education
 
@@ -164,7 +170,7 @@ Below is a summary of the key variables in the dataset:
 
 ### Gender
 
-In the Jupyter Notebook containing analysis on [Gender](code/(CHRIS)%20Anxiety%20Prelim%20Analysis%20+%20Gender.ipynb), there is an explanation about hypothesis testing (both 1-sided and 2-sided t-tests). The conclusions to these tests were that **there was enough evidence to conclude that males have a LOWER mean score value for anxiety than females**.
+For the hypothesis testing (refer to [Gender Jupyter Notebook](code/(CHRIS)%20Anxiety%20Prelim%20Analysis%20+%20Gender.ipynb)), we compared whether males had a lower mean score value than females. The conclusions to these tests were that **there was enough evidence to conclude that males have a LOWER mean score value for anxiety than females**.
 
 ![Fig 10](EDA/Gender/box.png)
 
@@ -314,6 +320,8 @@ The following demographic groups experienced heightened indicators of anxiety:
 - **Hispanics** and **people of mixed race**
 - **Those with an Associate's Degree** and **Those with less than a High School Degree**
 - **Ages 18-29 (Young Adults)**
+
+By identifying groups who are at higher risks of anxiety, our focus and future analyses can be directed towards assisting those groups to reduce levels of anxiety.
 
 ### Limitations
 
