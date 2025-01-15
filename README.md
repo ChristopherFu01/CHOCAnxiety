@@ -76,7 +76,7 @@ This dataset contains information collected by the Centers for Disease Control a
 
 ![Dataset](EDA/Dataset.png)
 
-**Table 1: Dataset**
+**Figure 1: Dataset**
 
 ### Variables
 
@@ -122,15 +122,111 @@ Below is a summary of the key variables in the dataset:
 
 ### Age
 
+![Fig 2](EDA/Age/box.png)
+
+**Figure 2: Boxplot of Score Value Distributions by Age.** 
+
+![Fig 3](EDA/Age/meanval.png)
+
+**Figure 3: Barplot of Mean Score Value by Age.**
+
+![Fig 4](EDA/Age/stats.png)
+
+**Figure 4: Statistics of Score Value by Age.**
+
+![Fig 5](EDA/Age/val.png)
+
+**Figure 5: Distribution of Score Value by Age.**
+
 ### Education
+
+![Fig 6](EDA/Education/box.png)
+
+**Figure 6: Boxplot of Score Value Distributions by Education.** 
+
+![Fig 7](EDA/Education/meanval.png)
+
+**Figure 7: Barplot of Mean Score Value by Education.**
+
+![Fig 8](EDA/Education/stats.png)
+
+**Figure 8: Statistics of Score Value by Education.**
+
+![Fig 9](EDA/Education/val.png)
+
+**Figure 9: Distribution of Score Value by Education.**
 
 ### Gender
 
+![Fig 10](EDA/Gender/box.png)
+
+**Figure 10: Boxplot of Score Value Distributions by Gender.** 
+
+![Fig 11](EDA/Gender/meanval.png)
+
+**Figure 11: Barplot of Mean Score Value by Gender.**
+
+![Fig 12](EDA/Gender/stats.png)
+
+**Figure 12: Statistics of Score Value for Females.**
+
+![Fig 13](EDA/Gender/stats.png)
+
+**Figure 13: Statistics of Score Value for Males.**
+
+![Fig 14](EDA/Gender/val.png)
+
+**Figure 14: Distribution of Score Value by Gender.**
+
 ### Race 
+
+![Fig 15](EDA/Race/box.png)
+
+**Figure 15: Boxplot of Score Value Distributions by Race.** 
+
+![Fig 16](EDA/Race/meanval.png)
+
+**Figure 16: Barplot of Mean Score Value by Race.**
+
+![Fig 17](EDA/Race/stats.png)
+
+**Figure 17: Statistics of Score Value by Race.**
+
+![Fig 18](EDA/Race/val.png)
+
+**Figure 18: Distribution of Score Value by Race.**
 
 ### States
 
+![Fig 19](EDA/States/heatmap1.png)
+
+**Figure 19: Heatmap of Score Value by States.** 
+
+![Fig 20](EDA/States/heatmap2.png)
+
+**Figure 20: Heatmap of States with Significant Levels of Anxiety.** 
+
+![Fig 21](EDA/States/heatmap3.png)
+
+**Figure 21: Heatmap of States with Significant Levels of Depression.** 
+
+![Fig 22](EDA/States/meanval.png)
+
+**Figure 22: Barplot of Mean Score Value by States.**
+
+![Fig 23](EDA/States/stats1.png)![Fig 232](EDA/States/stats2.png)
+
+**Figure 23: Statistics of Score Value by States.**
+
 ### Week
+
+![Fig 24](EDA/Week/meanval.png)
+
+**Figure 24: Barplot of Mean Score Value by Week.**
+
+![Fig 25](EDA/Week/stats.png)
+
+**Figure 25: Statistics of Score Value by Week.**
 
 ## Modeling
 
@@ -201,7 +297,8 @@ CHOCAnxiety/
 |   ├── Gender                                           # Folder containing photos of EDA for gender
 |   |   ├── box.png                                      # photo of boxplot for gender
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by gender
-|   |   ├── stats.png                                    # photo of statistics for gender
+|   |   ├── statsf.png                                   # photo of statistics for females
+|   |   ├── statsm.png                                   # photo of statistics for males
 |   |   └── val.png                                      # photo of different values by gender
 |   |
 |   ├── Race                                             # Folder containing photos of EDA for race
@@ -211,16 +308,17 @@ CHOCAnxiety/
 |   |   └── val.png                                      # photo of different values by race
 |   |
 |   ├── States                                           # Folder containing photos of EDA for states
-|   |   ├── box.png                                      # photo of boxplot for states
+|   |   ├── heatmap1.png                                 # photo of heatmap for states with varying levels of anxiety
+|   |   ├── heatmap2.png                                 # photo of heatmap for significant states having anxiety
+|   |   ├── heatmap3.png                                 # photo of heatmap for significant states having depression
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by states
 |   |   ├── stats.png                                    # photo of statistics for states
-|   |   └── val.png                                      # photo of different values by states
+|   |   └── stats2.png                                   # photo of statistics for states continued
+|   |   
 |   |
 |   ├── Week                                             # Folder containing photos of EDA for week
-|   |   ├── box.png                                      # photo of boxplot for week
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by week
-|   |   ├── stats.png                                    # photo of statistics for weeks
-|   |   └── val.png                                      # photo of different values by week
+|   |   └── stats.png                                    # photo of statistics for weeks
 |   |
 |   └── Dataset.png                                      # photo of dataset in jupyter notebook using python pandas
 |
@@ -230,7 +328,7 @@ CHOCAnxiety/
 |   |   ├── sig_groups.png                               # table of groups which were considered significant
 |   |   ├── sig_states.png                               # table of states which were considered significant
 |   |   ├── sig_subgroups.png                            # table of subgroups which were considered significant
-|   |   ├── sig_weeks.png                                # table of weeks which were considered significant
+|   |   └── sig_weeks.png                                # table of weeks which were considered significant
 |   |   
 |   └── SLR                                              # Folder containing photos for single linear regression model
 |       ├── Age                                          # Folder containing photo(s) for single linear regression model for age
