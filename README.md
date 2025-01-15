@@ -162,6 +162,8 @@ Below is a summary of the key variables in the dataset:
 
 ### Gender
 
+In the Jupyter Notebook containing analysis on [Gender](code/(CHRIS)%20Anxiety%20Prelim%20Analysis%20+%20Gender.ipynb), there is an explanation about hypothesis testing (both 1-sided and 2-sided t-tests). The conclusions to these tests were that **there was enough evidence to conclude that males have a LOWER mean score value for anxiety than females**.
+
 ![Fig 10](EDA/Gender/box.png)
 
 **Figure 10: Boxplot of Score Value Distributions by Gender.** 
@@ -240,7 +242,7 @@ Supervised machine learning models were used to analyze the relationships betwee
 
 **(2) A Multivariate Linear Regression Model for all variables** 
 
-The Jupyter Notebook [included](code/(CHRIS)%20MLR%20model%20based%20on%20Anxiety.ipynb) contains explanations of the statistical theory behind these models.
+The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20model%20based%20on%20Anxiety.ipynb) contains explanations of the statistical theory behind the multivariate linear regression model.
 
 ### Simple Linear Regression Models
 
