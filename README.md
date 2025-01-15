@@ -16,8 +16,12 @@
    - [Race](#race)
    - [Week](#week)
 6. [Modeling](#modeling)
-   - [Model Development](#model-development)
-   - [Model Evaluation](#model-evaluation)
+   - [Simple Linear Regression](#simple-linear-regression)
+        - [Age](#age)
+        - [Education](#education)
+        - [Gender](#gender)
+        - [Race](#race)
+   - [Multivariate Linear Regression](#multivariate-linear-regression)
 7. [Conclusion](#conclusion)
    - [Insights](#insights)
    - [Limitations](#limitations)
@@ -230,9 +234,17 @@ Below is a summary of the key variables in the dataset:
 
 ## Modeling
 
-### Model Development
+### Simple Linear Regression Models
 
-### Model Evaluation
+#### Age
+
+#### Education
+
+#### Gender
+
+#### Race
+
+### Multivariate Linear Regression Model
 
 ## Conclusion
 
@@ -330,20 +342,20 @@ CHOCAnxiety/
 |   |   ├── sig_subgroups.png                            # table of subgroups which were considered significant
 |   |   └── sig_weeks.png                                # table of weeks which were considered significant
 |   |   
-|   └── SLR                                              # Folder containing photos for single linear regression model
-|       ├── Age                                          # Folder containing photo(s) for single linear regression model for age
+|   └── SLR                                              # Folder containing photos for simple linear regression model
+|       ├── Age                                          # Folder containing photo(s) for simple linear regression model for age
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on age
 |       |
-|       ├── Education                                    # Folder containing photo(s) for single linear regression model for education
+|       ├── Education                                    # Folder containing photo(s) for simple linear regression model for education
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on education
 |       |
-|       ├── Gender                                       # Folder containing photo(s) for single linear regression model for gender
+|       ├── Gender                                       # Folder containing photo(s) for simple linear regression model for gender
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on gender
 |       |
-|       ├── Race                                         # Folder containing photo(s) for single linear regression model for race
+|       ├── Race                                         # Folder containing photo(s) for simple linear regression model for race
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on race
 |       |
-|       └── States                                       # Folder containing photo(s) for single linear regression model for states
+|       └── States                                       # Folder containing photo(s) for simple linear regression model for states
 |           └── model_summary.png                        # model summary table for linear regresion model based on states
 |        
 |
