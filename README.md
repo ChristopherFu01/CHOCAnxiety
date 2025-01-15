@@ -23,7 +23,7 @@
         - [Gender](#simple-linear-regression-models-gender)
         - [Race](#simple-linear-regression-models-race)
         - [States](#simple-linear-regression-models-states)
-   - [Multivariate Linear Regression](#multivariate-linear-regression)
+   - [Multivariate Linear Regression Model](#multivariate-linear-regression-model)
 7. [Conclusion](#conclusion)
    - [Insights](#insights)
    - [Limitations](#limitations)
