@@ -211,7 +211,7 @@ CHOCAnxiety/
 |   |   ├── sig_subgroups.png                            # table of subgroups which were considered significant
 |   |   ├── sig_weeks.png                                # table of weeks which were considered significant
 |   |   
-|   ├── SLR                                              # Folder containing photos for single linear regression model
+|   └── SLR                                              # Folder containing photos for single linear regression model
 |       ├── Age                                          # Folder containing photo(s) for single linear regression model for age
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on age
 |       |
