@@ -79,21 +79,39 @@ Below is a summary of the key variables in the dataset:
 
 **Mental Health Indicators**
 - **Indicator**:Categorical (Symptoms of Anxiety Disorder, Symptoms of Depressive Disorder, Symptoms of Anxiety Disorder or Depressive Disorder)
+  - labeled disorder
 - **Value**: Numerical (e.g. 18.6)
+   - value indicating the likelihood of a disorder; higher values mean higher correspondence
    - This is our **main response variable** for assessing anxiety likelihood
 - **Low CI**: Numerical (e.g. 14.6)
+  - lowerbound of the confidence interval
 - **High CI**: Numerical (e.g. 23.1)
+  -  upperbound of the confidence interval
 - **Confidence Interval**: Numerical (e.g. 14.6 - 23.1)
+  - the full range of the confidence interval
 - **Quartile Range**: Numerical (e.g. 16.5 - 20.7)
+  - quartile range shown as an interval (?)
 
 **Demographic Variables**
 - **Group**: Categorical (National Estimate, By Age, By Gender, By Race/Hispanic ethnicity, By Education, By State)
+  - type of group
 - **State**: Categorical (e.g. United States, Alabama, Alaska, etc.)
+  - full state name in the United States including "United States" and "District of Columbia"
 - **Subgroup**: Categorical (e.g. United States, 18-29 years, Male, Hispanic or Latino, etc.)
+  - type of subgroup within a certain group
 
 **Temporal Variables**
 - **Week**: Categorical (e.g. 1, 2, 3, etc.)
-- **Week Label**: Categorical (e.g. Apr 23 - May 5) 
+  - numeric value indicating which week # it is; total of 7 observed weeks
+- **Week Label**: Categorical (e.g. Apr 23 - May 5)
+  - date (month and day) for a certain week
+       - Week 1: Apr 23 - May 5
+       - Week 2: May 7 - May 12
+       - Week 3: May 14 - May 19
+       - Week 4: May 21 - May 26
+       - Week 5: May 28 - June 2
+       - Week 6: June 4 - June 9
+       - Week 7: June 11 - June 16
 
 ## Exploratory Data Analysis
 
