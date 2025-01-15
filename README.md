@@ -26,7 +26,7 @@
 
 This study examines demographic disparities among individuals exhibiting signs of anxiety, based on data from the Centers for Disease Control and Prevention (CDC) spanning Q2 2020 to Q2 2023. The analysis aims to provide CHOC (Children's Health of Orange County) medical staff and physicians with actionable insights into potential factors contributing to anxiety across diverse populations. Using a comprehensive dataset, the study evaluates trends in anxiety prevalence across age, gender, race/ethnicity, socioeconomic status, and geographic regions. Statistical and machine learning techniques, including multivariate regression and t-tests, were applied to identify significant disparities and correlations. Preliminary findings highlight heightened anxiety indicators among the following populations: **females**, **southern states**, **states with large urban populations**,**Hispanics** and **people of mixed race**,**those with an associate's degree** and **those with less than a high school degree**, and **ages 18-29**. These insights are intended to inform targeted interventions, resource allocation, and culturally sensitive care strategies to better address anxiety among vulnerable populations, with future plans involving unsupervised machine learning for detecting interactions among key variables. The study underscores the importance of leveraging demographic data to understand and mitigate the complex factors driving mental health disparities.
 
-If you would like to see a presentation format of this project, click [here](August%20Monthly%20Meeting%20Mi4%20Data%20Science.pdf)
+If you would like to see a presentation format of this project, click [here](August%20Monthly%20Meeting%20Mi4%20Data%20Science.pdf).
 
 ## Acknowledgments
 
