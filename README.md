@@ -10,6 +10,11 @@
 4. [Data Description](#data-description)
    - [Variables](#variables)
 5. [Exploratory Data Analysis](#exploratory-data-analysis)
+   - [Age](#age)
+   - [Education](#education)
+   - [Gender](#gender)
+   - [Race](#race)
+   - [Week](#week)
 6. [Modeling](#modeling)
    - [Model Development](#model-development)
    - [Model Evaluation](#model-evaluation)
@@ -69,6 +74,10 @@ This dataset contains information collected by the Centers for Disease Control a
 
 - `anxiety_data.csv`
 
+![Dataset](EDA/Dataset.png)
+
+**Table 1: Dataset**
+
 ### Variables
 
 Below is a summary of the key variables in the dataset:
@@ -110,6 +119,18 @@ Below is a summary of the key variables in the dataset:
        - Week 7: June 11 - June 16
 
 ## Exploratory Data Analysis
+
+### Age
+
+### Education
+
+### Gender
+
+### Race 
+
+### States
+
+### Week
 
 ## Modeling
 
