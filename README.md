@@ -312,14 +312,13 @@ The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20m
 
 The following demographic groups experienced heightened indicators of anxiety:
 
-- **Females**
-- **Southern States**
+- Age: **Ages 18-29 (Young Adults)**
+- Education: **Those with an Associate's Degree** and **Those with less than a High School Degree**
+- Gender: **Females**
+- Race: **Hispanics** and **people of mixed race**
+- States: **Southern States** and **States with Large Urban Populations**
   - Texas, Alabama
-- **States with Large Urban Populations**
   - California, New York
-- **Hispanics** and **people of mixed race**
-- **Those with an Associate's Degree** and **Those with less than a High School Degree**
-- **Ages 18-29 (Young Adults)**
 
 By identifying groups who are at higher risks of anxiety, our focus and future analyses can be directed towards assisting those groups to reduce levels of anxiety.
 
