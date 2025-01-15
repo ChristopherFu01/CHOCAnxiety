@@ -10,19 +10,19 @@
 4. [Data Description](#data-description)
    - [Variables](#variables)
 5. [Exploratory Data Analysis](#exploratory-data-analysis)
-   - [Age](#age)
-   - [Education](#education)
-   - [Gender](#gender)
-   - [Race](#race)
-   - [States](#states)
-   - [Week](#week)
+   - [Age](#exploratory-data-analysis-age)
+   - [Education](#exploratory-data-analysis-education)
+   - [Gender](#exploratory-data-analysis-gender)
+   - [Race](#exploratory-data-analysis-race)
+   - [States](#exploratory-data-analysis-states)
+   - [Week](#exploratory-data-analysis-week)
 6. [Modeling](#modeling)
    - [Simple Linear Regression](#simple-linear-regression)
-        - [Age](#age)
-        - [Education](#education)
-        - [Gender](#gender)
-        - [Race](#race)
-        - [States](#states)
+        - [Age](#simple-linear-regression-age)
+        - [Education](#simple-linear-regression-education)
+        - [Gender](#simple-linear-regression-gender)
+        - [Race](#simple-linear-regression-race)
+        - [States](#simple-linear-regression-states)
    - [Multivariate Linear Regression](#multivariate-linear-regression)
 7. [Conclusion](#conclusion)
    - [Insights](#insights)
@@ -250,13 +250,55 @@ The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20m
 
 #### Age
 
+![Fig 26](Model%20Building/SLR/Age/model_summary.png)
+
+**Figure 26: Model Summary for Simple Linear Regression Model for Age.**
+
 #### Education
+
+![Fig 27](Model%20Building/SLR/Education/model_summary.png)
+
+**Figure 27: Model Summary for Simple Linear Regression Model for Education.**
 
 #### Gender
 
+![Fig 28](Model%20Building/SLR/Gender/model_summary.png)
+
+**Figure 28: Model Summary for Simple Linear Regression Model for Gender.**
+
 #### Race
 
+![Fig 29](Model%20Building/SLR/Age/model_summary.png)
+
+**Figure 29: Model Summary for Simple Linear Regression Model for Race.**
+
+#### States
+
+![Fig 30](Model%20Building/SLR/States/model_summary.png)
+
+**Figure 30: Model Summary for Simple Linear Regression Model for States.**
+
 ### Multivariate Linear Regression Model
+
+![Fig 31](Model%20Building/MLR/model_summary.png)
+
+**Figure 31: Model Summary for Multivariate Linear Regression Model.**
+
+![Fig 32](Model%20Building/MLR/sig_weeks.png)
+
+**Figure 32: List of Significant Weks According to Multivariate Linear Regression Model.**
+
+![Fig 33](Model%20Building/MLR/sig_groups.png)
+
+**Figure 33: List of Significant Groups According to Multivariate Linear Regression Model.**
+
+![Fig 34](Model%20Building/MLR/sig_states.png)
+
+**Figure 34: List of Significant States According to Multivariate Linear Regression Model.**
+
+![Fig 35](Model%20Building/MLR/sig_subgroups.png)
+
+**Figure 35: List of Significant Subgroups According to Multivariate Linear Regression Model.**
 
 ## Conclusion
 
@@ -277,7 +319,7 @@ The following demographic groups experienced heightened indicators of anxiety:
 
 One of the attributes that we failed to investigate into was the temporal aspects of the dataset. Looking into the weeks, especially data points originating from the COVID-19 pandemic period, would give us insight into whether certain years, seasons, months, or weeks experience increased anxiety.
 
-Another limitation of our study was not optimizing model performance or trying other supervised machine learning models, as those models could offer greater insight into feature importance.
+Another limitation of our study was not optimizing model performance or trying other supervised machine learning models, as those models could offer greater insight into feature importance. We also did not look into other evaluation metrics other than accuracy.
 
 ### Future Plans
 
