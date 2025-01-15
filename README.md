@@ -234,6 +234,14 @@ Below is a summary of the key variables in the dataset:
 
 ## Modeling
 
+Supervised machine learning models were used to analyze the relationships between variables. The modeling section will be broken down into two sections: 
+
+**(1) A Simple Linear Regression Model for each variable**
+
+**(2) A Multivariate Linear Regression Model for all variables** 
+
+The Jupyter Notebook [included]((CHRIS)%20MLR%20model%20based%20on%20Anxiety.ipynb) contains explanations of the statistical theory behind these models.
+
 ### Simple Linear Regression Models
 
 #### Age
