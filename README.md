@@ -240,7 +240,7 @@ Supervised machine learning models were used to analyze the relationships betwee
 
 **(2) A Multivariate Linear Regression Model for all variables** 
 
-The Jupyter Notebook [included]((CHRIS)%20MLR%20model%20based%20on%20Anxiety.ipynb) contains explanations of the statistical theory behind these models.
+The Jupyter Notebook [included](code/(CHRIS)%20MLR%20model%20based%20on%20Anxiety.ipynb) contains explanations of the statistical theory behind these models.
 
 ### Simple Linear Regression Models
 
