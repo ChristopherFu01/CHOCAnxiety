@@ -174,7 +174,7 @@ For the hypothesis testing (refer to [Gender Jupyter Notebook](code/(CHRIS)%20An
 
 ![Fig 10](EDA/Gender/box.png)
 
-**Figure 10: Boxplot of Score Value Distributions by Gender.** 
+**Figure 10: Boxplot of Score Value Distributions by Gender.** There appears to be a much greater gap in anxiety score values for females than that of males. Also, the distribution of anxiety score values for Females is extremely left-skewed. Factors could be societal pressure and unequal opportunities for females due to gender discrimination.
 
 ![Fig 11](EDA/Gender/meanval.png)
 
