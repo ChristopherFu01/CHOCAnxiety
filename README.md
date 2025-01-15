@@ -286,7 +286,7 @@ The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20m
 
 ![Fig 32](Model%20Building/MLR/sig_weeks.png)
 
-**Figure 32: List of Significant Weks According to Multivariate Linear Regression Model.**
+**Figure 32: List of Significant Weeks According to Multivariate Linear Regression Model.**
 
 ![Fig 33](Model%20Building/MLR/sig_groups.png)
 
