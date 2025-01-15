@@ -165,19 +165,75 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 CHOCAnxiety/
 |
 ├── EDA                                           # Folder containing photos of EDA
-|   ├──
-|   └── 
+|   ├── Age                                       # Folder containing photos of EDA for age
+|   |   ├── box.png                               # photo of boxplot for age groups
+|   |   ├── meanval.png                           # photo of barplot for mean value split by age
+|   |   ├── stats.png                             # photo of statistics for age
+|   |   └── val.png                               # photo of different values by age
+|   |
+|   ├── Education                                 # Folder containing photos of EDA for education
+|   |   ├── box.png                               # photo of boxplot for education groups
+|   |   ├── meanval.png                           # photo of barplot for mean value split by education
+|   |   ├── stats.png                             # photo of statistics for education
+|   |   └── val.png                               # photo of different values by education
+|   |
+|   ├── Gender                                    # Folder containing photos of EDA for gender
+|   |   ├── box.png                               # photo of boxplot for gender
+|   |   ├── meanval.png                           # photo of barplot for mean value split by gender
+|   |   ├── stats.png                             # photo of statistics for gender
+|   |   └── val.png                               # photo of different values by gender
+|   |
+|   ├── Race                                      # Folder containing photos of EDA for race
+|   |   ├── box.png                               # photo of boxplot for race groups
+|   |   ├── meanval.png                           # photo of barplot for mean value split by race
+|   |   ├── stats.png                             # photo of statistics for race
+|   |   └── val.png                               # photo of different values by race
+|   |
+|   ├── States                                    # Folder containing photos of EDA for states
+|   |   ├── box.png                               # photo of boxplot for states
+|   |   ├── meanval.png                           # photo of barplot for mean value split by states
+|   |   ├── stats.png                             # photo of statistics for states
+|   |   └── val.png                               # photo of different values by states
+|   |
+|   ├── Week                                      # Folder containing photos of EDA for week
+|   |   ├── box.png                               # photo of boxplot for week
+|   |   ├── meanval.png                           # photo of barplot for mean value split by week
+|   |   ├── stats.png                             # photo of statistics for weeks
+|   |   └── val.png                               # photo of different values by week
+|   |
+|   └── Dataset.png                               # photo of dataset in jupyter notebook using python pandas
 |
 ├── Model Building                                # Folder containing photos regarding models
-|   ├──
-|   └── 
+|   ├── MLR                                       # Folder containing photos for multivariate linear regression model
+|   |   ├── model_summary.png
+|   |   ├── sig_groups.png
+|   |   ├── sig_states.png
+|   |   ├── sig_subgroups.png
+|   |   ├── sig_weeks.png
+|   |   
+|   ├── SLR                                       # Folder containing photos for single linear regression model
+|       ├── Age
+|       |   └── model_summary.png
+|       |
+|       ├── Education
+|       |   └── model_summary.png
+|       |
+|       ├── Gender
+|       |   └── model_summary.png
+|       |
+|       ├── Race
+|       |   └── model_summary.png
+|       |
+|       └── States
+|           └── model_summary.png
+|        
 |
 ├── code/                                         # Folder containing all code related files
 |   ├──
 |   └── 
 |
 ├── data/                                         # Folder containing all data file(s)
-|   ├── anxiety_data.csv                          # dataset from CDC containing anxiety and depressed people 
+|   └── anxiety_data.csv                          # dataset from CDC containing anxiety and depressed people 
 |
 |
 ├── August Monthly Meeting Mi4 Data Science.pdf   # PDF of presentation shown at the Mi4 CHOC August Monthly Meeting
