@@ -170,11 +170,11 @@ Below is a summary of the key variables in the dataset:
 
 **Figure 11: Barplot of Mean Score Value by Gender.**
 
-![Fig 12](EDA/Gender/stats.png)
+![Fig 12](EDA/Gender/statsf.png)
 
 **Figure 12: Statistics of Score Value for Females.**
 
-![Fig 13](EDA/Gender/stats.png)
+![Fig 13](EDA/Gender/statsm.png)
 
 **Figure 13: Statistics of Score Value for Males.**
 
