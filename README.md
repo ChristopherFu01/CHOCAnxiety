@@ -313,12 +313,28 @@ The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20m
 The following demographic groups experienced heightened indicators of anxiety:
 
 - Age: **Ages 18-29 (Young Adults)**
-- Education: **Those with an Associate's Degree** and **Those with less than a High School Degree**
+  - Potential External Factors:
+     - Competitive Job Market
+     - Generational Trauama
+- Education: **Those with an Associate's Degree** and **Those with Less than a High School Degree**
+   - Potential External Factors:
+     - Competitive job market hires those with greater degree levels
 - Gender: **Females**
+  - Potential External Factors:
+     - Discrimination
+     - Societal Pressure
 - Race: **Hispanics** and **people of mixed race**
+  - Potential External Factors:
+     - Socioeconomic Inequality
+     - Discrimination
 - States: **Southern States** and **States with Large Urban Populations**
-  - Texas, Alabama
-  - California, New York
+  - Southern States: Texas, Alabama, Louisiana, etc.
+    - Higher levels of discrimination
+    - Less developed economically and technologically
+    - Harsh Weather
+  - California, New York, etc.
+    - Higher intense work culture
+    - Dense populations; greater crowds
 
 By identifying groups who are at higher risks of anxiety, our focus and future analyses can be directed towards assisting those groups to reduce levels of anxiety.
 
