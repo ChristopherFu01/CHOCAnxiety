@@ -379,23 +379,23 @@ Accomplishing these goals first would allow us to proceed with investigating dat
 ```plaintext
 CHOCAnxiety/
 |
-├── EDA                                                  # Folder containing photos of EDA
+├── EDA/                                                 # Folder containing photos of EDA
 |   |
-|   ├── Age                                              # Folder containing photos of EDA for age
+|   ├── Age/                                             # Folder containing photos of EDA for age
 |   |   |
 |   |   ├── box.png                                      # photo of boxplot for age groups
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by age
 |   |   ├── stats.png                                    # photo of statistics for age
 |   |   └── val.png                                      # photo of different values by age
 |   |
-|   ├── Education                                        # Folder containing photos of EDA for education
+|   ├── Education/                                       # Folder containing photos of EDA for education
 |   |   |
 |   |   ├── box.png                                      # photo of boxplot for education groups
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by education
 |   |   ├── stats.png                                    # photo of statistics for education
 |   |   └── val.png                                      # photo of different values by education
 |   |
-|   ├── Gender                                           # Folder containing photos of EDA for gender
+|   ├── Gender/                                          # Folder containing photos of EDA for gender
 |   |   |
 |   |   ├── box.png                                      # photo of boxplot for gender
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by gender
@@ -403,14 +403,14 @@ CHOCAnxiety/
 |   |   ├── statsm.png                                   # photo of statistics for males
 |   |   └── val.png                                      # photo of different values by gender
 |   |
-|   ├── Race                                             # Folder containing photos of EDA for race
+|   ├── Race/                                            # Folder containing photos of EDA for race
 |   |   |
 |   |   ├── box.png                                      # photo of boxplot for race groups
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by race
 |   |   ├── stats.png                                    # photo of statistics for race
 |   |   └── val.png                                      # photo of different values by race
 |   |
-|   ├── States                                           # Folder containing photos of EDA for states
+|   ├── States/                                          # Folder containing photos of EDA for states
 |   |   |
 |   |   ├── heatmap1.png                                 # photo of heatmap for states with varying levels of anxiety
 |   |   ├── heatmap2.png                                 # photo of heatmap for significant states having anxiety
@@ -420,16 +420,16 @@ CHOCAnxiety/
 |   |   └── stats2.png                                   # photo of statistics for states continued
 |   |   
 |   |
-|   ├── Week                                             # Folder containing photos of EDA for week
+|   ├── Week/                                            # Folder containing photos of EDA for week
 |   |   |
 |   |   ├── meanval.png                                  # photo of barplot for mean value split by week
 |   |   └── stats.png                                    # photo of statistics for weeks
 |   |
 |   └── Dataset.png                                      # photo of dataset in jupyter notebook using python pandas
 |
-├── Model Building                                       # Folder containing photos regarding models
+├── Model Building/                                      # Folder containing photos regarding models
 |   |   
-|   ├── MLR                                              # Folder containing photos for multivariate linear regression model
+|   ├── MLR/                                             # Folder containing photos for multivariate linear regression model
 |   |   |
 |   |   ├── model_summary.png                            # model summary for multivariate regression model
 |   |   ├── sig_groups.png                               # table of groups which were considered significant
@@ -437,21 +437,21 @@ CHOCAnxiety/
 |   |   ├── sig_subgroups.png                            # table of subgroups which were considered significant
 |   |   └── sig_weeks.png                                # table of weeks which were considered significant
 |   |   
-|   └── SLR                                              # Folder containing photos for simple linear regression model
+|   └── SLR/                                             # Folder containing photos for simple linear regression model
 |       |
-|       ├── Age                                          # Folder containing photo(s) for simple linear regression model for age
+|       ├── Age/                                         # Folder containing photo(s) for simple linear regression model for age
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on age
 |       |
-|       ├── Education                                    # Folder containing photo(s) for simple linear regression model for education
+|       ├── Education/                                   # Folder containing photo(s) for simple linear regression model for education
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on education
 |       |
-|       ├── Gender                                       # Folder containing photo(s) for simple linear regression model for gender
+|       ├── Gender/                                      # Folder containing photo(s) for simple linear regression model for gender
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on gender
 |       |
-|       ├── Race                                         # Folder containing photo(s) for simple linear regression model for race
+|       ├── Race/                                        # Folder containing photo(s) for simple linear regression model for race
 |       |   └── model_summary.png                        # model summary table for linear regresion model based on race
 |       |
-|       └── States                                       # Folder containing photo(s) for simple linear regression model for states
+|       └── States/                                      # Folder containing photo(s) for simple linear regression model for states
 |           └── model_summary.png                        # model summary table for linear regresion model based on states
 |        
 |
