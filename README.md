@@ -10,7 +10,7 @@
 4. [Data Description](#data-description)
    - [Variables](#variables)
 5. [Exploratory Data Analysis](#exploratory-data-analysis)
-   - [Age](#age-1)
+   - [Age](#exploratory-data-analysis-age)
    - [Education](#exploratory-data-analysis-education)
    - [Gender](#exploratory-data-analysis-gender)
    - [Race](#exploratory-data-analysis-race)
