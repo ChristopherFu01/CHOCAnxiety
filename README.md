@@ -178,19 +178,19 @@ For the hypothesis testing (refer to [Gender Jupyter Notebook](code/(CHRIS)%20An
 
 ![Fig 11](EDA/Gender/meanval.png)
 
-**Figure 11: Barplot of Mean Score Value by Gender.**
+**Figure 11: Barplot of Mean Score Value by Gender.** Females' mean score value exceeds the overall mean anxiety score value, whereas Males' mean score value falls under the overall.
 
 ![Fig 12](EDA/Gender/statsf.png)
 
-**Figure 12: Statistics of Score Value for Females.**
+**Figure 12: Statistics of Score Value for Females.** Females have a much higher mean anxiety value than Males by about 8 points.
 
 ![Fig 13](EDA/Gender/statsm.png)
 
-**Figure 13: Statistics of Score Value for Males.**
+**Figure 13: Statistics of Score Value for Males.** Males have a slightly larger spread in data compared to that of females.
 
 ![Fig 14](EDA/Gender/val.png)
 
-**Figure 14: Distribution of Score Value by Gender.**
+**Figure 14: Dummy Plot of Gender.** We observe Females having a higher average anxiety value compared to Males, as evident by the positive slope from Male to Female.
 
 ### Race 
 
