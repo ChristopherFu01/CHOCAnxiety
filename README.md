@@ -300,23 +300,23 @@ The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20m
 
 ![Fig 31](Model%20Building/MLR/model_summary.png)
 
-**Figure 31: Model Summary for Multivariate Linear Regression Model.**
+**Figure 31: Model Summary for Multivariate Linear Regression Model.** We observe that the multivariate regression model predicts with 77.3% accuracy (or 73.2% adjusted accuracy). We also see that the F-statistic is fairly large, indicating that the regression model performs well with the included predictor variables we have chosen.
 
 ![Fig 32](Model%20Building/MLR/sig_weeks.png)
 
-**Figure 32: List of Significant Weeks According to Multivariate Linear Regression Model.**
+**Figure 32: List of Significant Weeks According to Multivariate Linear Regression Model.** Weeks 3 and 4 correspond to  May 14 - May 19 and May 21 - May 26 respectively.
 
 ![Fig 33](Model%20Building/MLR/sig_groups.png)
 
-**Figure 33: List of Significant Groups According to Multivariate Linear Regression Model.**
+**Figure 33: List of Significant Groups According to Multivariate Linear Regression Model.** It is interesting to note that Education, Gender, Race, and State were considered significant groups, but Age and Week seem to bear no significance when evaluated with the multivariate linear regression model.
 
 ![Fig 34](Model%20Building/MLR/sig_states.png)
 
-**Figure 34: List of Significant States According to Multivariate Linear Regression Model.**
+**Figure 34: List of Significant States According to Multivariate Linear Regression Model.** These results seem consistent with the findings we had for the EDA of the states, particularly the heatmap for anxiety over states experiencing heightened levels of anxiety.
 
 ![Fig 35](Model%20Building/MLR/sig_subgroups.png)
 
-**Figure 35: List of Significant Subgroups According to Multivariate Linear Regression Model.**
+**Figure 35: List of Significant Subgroups According to Multivariate Linear Regression Model.** Unlike the macroscopic feature importance of *groups*, certain subgroups of Age, excluding 18-29, were considered important. It is also worth noting that some subgroups were not considered significant, such as Black and Hispanic subgroups for Race.
 
 ## Conclusion
 
