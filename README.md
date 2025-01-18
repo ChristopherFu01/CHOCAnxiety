@@ -249,7 +249,7 @@ Recall the labels for the following weeks:
 
 ![Fig 25](EDA/Week/stats.png)
 
-**Figure 25: Statistics of Score Value by Week.**
+**Figure 25: Statistics of Score Value by Week.** The mean anxiety score value across these weeks were relatively comparable.
 
 ## Modeling
 
