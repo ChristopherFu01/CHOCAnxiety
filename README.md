@@ -196,41 +196,41 @@ For the hypothesis testing (refer to [Gender Jupyter Notebook](code/(CHRIS)%20An
 
 ![Fig 15](EDA/Race/box.png)
 
-**Figure 15: Boxplot of Score Value Distributions by Race.** 
+**Figure 15: Boxplot of Score Value Distributions by Race.** Each box plot for each race is skewed; specifically, left-skewed distributions include Non-Hispanic Whites and Non-Hispanic Asians, which indicate that certain individuals within those groups experience decreased levels of anxiety compared to the rest; right-skewed distributions include Non-Hispanic Blacks, Hispanics, and Mixed Races, indicating that some individuals experience increased levels of anxiety. 
 
 ![Fig 16](EDA/Race/meanval.png)
 
-**Figure 16: Barplot of Mean Score Value by Race.**
+**Figure 16: Barplot of Mean Score Value by Race.** The following ranking is from least anxious to most anxious based on the mean score value for anxiety: Asians, Whites, Blacks, Hispanics, Mixed Races.
 
 ![Fig 17](EDA/Race/stats.png)
 
-**Figure 17: Statistics of Score Value by Race.**
+**Figure 17: Statistics of Score Value by Race.** Mixed Race people have the largest spread in their data distribution followed by Asians.
 
 ![Fig 18](EDA/Race/val.png)
 
-**Figure 18: Distribution of Score Value by Race.**
+**Figure 18: Distribution of Score Value by Race.** Similar to the barplot, we see that Asians and Whites tend to have lower anxiety scores compared to those of other races. We speculate that some members of certain ethnic communities may lack the same resources and access to care as other races, whether it be due to discrimination or language barriers, which could be contributing to a rise in anxiety score values.
 
 ### States
 
 ![Fig 19](EDA/States/heatmap1.png)
 
-**Figure 19: Heatmap of Score Value by States.** 
+**Figure 19: Heatmap of Score Value by States.** A monochrome scheme of various shades of red illustrate the magnitude of anxiety score value for each state; the redder a state appears to be, the more likely it is to have a higher mean score value.
 
 ![Fig 20](EDA/States/heatmap2.png)
 
-**Figure 20: Heatmap of States with Significant Levels of Anxiety.** 
+**Figure 20: Heatmap of States with Significant Levels of Anxiety.** Using Alabama as a baseline for mean anxiety score, states which appear to have a color filled in are considered to be under greater. Southern states such as Texas, Arkansas, and Florida appear to have the greatest scores of anxiety, with Louisiana and Missouri viewed as having the greatest anxiety score levels. States known for large urban populations, such as California and New York, also seem to have discernable levels for anxiety.
 
 ![Fig 21](EDA/States/heatmap3.png)
 
-**Figure 21: Heatmap of States with Significant Levels of Depression.** 
+**Figure 21: Heatmap of States with Significant Levels of Depression.** Similar to the heatmap for anxiety, depression disorder seems to correspond with the findings for states with high levels of anxiety.
 
 ![Fig 22](EDA/States/meanval.png)
 
-**Figure 22: Barplot of Mean Score Value by States.**
+**Figure 22: Barplot of Mean Score Value by States.** Mean anxiety scores decrease from left to right, meaning that left had the highest score and the right had the lowest score. The top five states for greatest anxiety were (1) Louisiana (2) Mississippi (3) Florida (4) Nevada (5) California. The states with the lowest anxiety scores were (1) North Dakota (2) Wyoming (3) Iowa (4) Nebraska (5) Hawaii
 
 ![Fig 23](EDA/States/stats1.png)![Fig 232](EDA/States/stats2.png)
 
-**Figure 23: Statistics of Score Value by States.**
+**Figure 23: Statistics of Score Value by States.** These are a list of the states ranked from highest mean anxiety score to lowest mean anxiety score.
 
 ### Week
 
@@ -334,16 +334,25 @@ The following demographic groups experienced heightened indicators of anxiety:
      - Societal Pressure
 - Race: **Hispanics** and **people of mixed race**
   - Potential External Factors:
-     - Socioeconomic Inequality
+     - Socioeconomic Inequality; Lack of Equal Access 
+       - Racial Wage Gap
+       - Language Barriers; limits healthcare access to medical care<sup>[5]</sup>
+       - Health Disparities
      - Discrimination
 - States: **Southern States** and **States with Large Urban Populations**
-  - Southern States: Texas, Alabama, Louisiana, etc.
+  - Southern States: Texas, Alabama, Louisiana, Missouri, etc.
     - Higher levels of discrimination
     - Less developed economically and technologically
-    - Harsh Weather
+    - Harsh Weather 
   - California, New York, etc.
     - Higher intense work culture
     - Dense populations; greater crowds
+ - Top 5 Most Anxious States
+    - (1) Louisiana
+    - (2) Mississippi
+    - (3) Florida
+    - (4) Nevada
+    - (5) California
 
 By identifying groups who are at higher risks of anxiety, our focus and future analyses can be directed towards assisting those groups to reduce levels of anxiety.
 
