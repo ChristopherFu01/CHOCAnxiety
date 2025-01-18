@@ -245,7 +245,7 @@ Recall the labels for the following weeks:
 
 ![Fig 24](EDA/Week/meanval.png)
 
-**Figure 24: Barplot of Mean Score Value by Week.**
+**Figure 24: Barplot of Mean Score Value by Week.** The middle of June experienced the greatest mean anxiety value, whereas the middle of May experienced the lowest mean anxiety value.
 
 ![Fig 25](EDA/Week/stats.png)
 
@@ -358,7 +358,7 @@ By identifying groups who are at higher risks of anxiety, our focus and future a
 
 ### Limitations
 
-One of the attributes that we failed to investigate into was the temporal aspects of the dataset. Looking into the weeks, especially data points originating from the COVID-19 pandemic period, would give us insight into whether certain years, seasons, months, or weeks experience increased anxiety.
+One of the attributes that we failed to investigate into was the temporal aspects of the dataset. Looking into the weeks, especially data points originating from the COVID-19 pandemic period, would give us insight into whether certain years, seasons, months, or weeks experience increased anxiety. This limitation could be reinforced by the choice of week labels, where these weeks were only late April to Mid June.
 
 Another limitation of our study was not optimizing model performance or trying other supervised machine learning models, as those models could offer greater insight into feature importance. We also did not look into other evaluation metrics other than accuracy.
 
