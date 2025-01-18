@@ -228,7 +228,10 @@ For the hypothesis testing (refer to [Gender Jupyter Notebook](code/(CHRIS)%20An
 
 **Figure 22: Barplot of Mean Score Value by States.** Mean anxiety scores decrease from left to right, meaning that left had the highest score and the right had the lowest score. The top five states for greatest anxiety were (1) Louisiana (2) Mississippi (3) Florida (4) Nevada (5) California. The states with the lowest anxiety scores were (1) North Dakota (2) Wyoming (3) Iowa (4) Nebraska (5) Hawaii
 
-![Fig 23](EDA/States/stats1.png)![Fig 232](EDA/States/stats2.png)
+<p>
+   <img src="EDA/States/stats1.png"/>
+   <img src="EDA/States/stats2.png"/>
+</p>
 
 **Figure 23: Statistics of Score Value by States.** These are a list of the states ranked from highest mean anxiety score to lowest mean anxiety score.
 
