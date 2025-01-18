@@ -270,31 +270,31 @@ The Jupyter Notebook for [multivariate linear regression](code/(CHRIS)%20MLR%20m
 
 ![Fig 26](Model%20Building/SLR/Age/model_summary.png)
 
-**Figure 26: Model Summary for Simple Linear Regression Model for Age.**
+**Figure 26: Model Summary for Simple Linear Regression Model for Age.** The model accuracy was 97.6% (or 97.2% adjusted), with the probability of the F-statistic being low enough to suggest evidence for differences in mean anxiety score among ages. Although this model accuracy is the highest for all of the simple linear regression models for all predictor variables, the magnitude of the accuracy raises concern for possibly overfitting the data, suggesting that hyperparameter tuning or optimization would be needed before firmly asserting the idea of mean difference among ages as suggested by the model.
 
 #### Education
 
 ![Fig 27](Model%20Building/SLR/Education/model_summary.png)
 
-**Figure 27: Model Summary for Simple Linear Regression Model for Education.**
+**Figure 27: Model Summary for Simple Linear Regression Model for Education.** The model accuracy was 89.4% (or 88.0% adjusted), with the probability of the F-statistic being low enough to suggest evidence for differences in mean anxiety score among education. All of the coefficients support the claims made in the EDA portion for education. 
 
 #### Gender
 
 ![Fig 28](Model%20Building/SLR/Gender/model_summary.png)
 
-**Figure 28: Model Summary for Simple Linear Regression Model for Gender.**
+**Figure 28: Model Summary for Simple Linear Regression Model for Gender.** The model accuracy was 92.1% (or 91.4% adjusted), with the probability of the F-statistic being low enough to suggest evidence for differences in mean anxiety score among genders. The model coefficients support the notion that Females have a higher mean anxiety score than Males.
 
 #### Race
 
 ![Fig 29](Model%20Building/SLR/Age/model_summary.png)
 
-**Figure 29: Model Summary for Simple Linear Regression Model for Race.**
+**Figure 29: Model Summary for Simple Linear Regression Model for Race.** The model accuracy was 81.6% (or 79.1% adjusted). The probability of the F-statistic suggests that there is a significant difference in mean anxiety score among different races. However, the model does not identify Blacks to be significant (p-value is above 0.05), which means that we cannot conclude whether the Black community had an impact on mean anxiety scores or not.
 
 #### States
 
 ![Fig 30](Model%20Building/SLR/States/model_summary.png)
 
-**Figure 30: Model Summary for Simple Linear Regression Model for States.**
+**Figure 30: Model Summary for Simple Linear Regression Model for States.** The model accuracy was 46.9% (or 38.2% adjusted). Although the probability of the F-statistic is low enough to reject the null hypothesis (i.e. there is enough evidence to conclude that there is a difference in mean anxiety score values among states), the correlation among states for mean anxiety score seems middling to low.
 
 ### Multivariate Linear Regression Model
 
